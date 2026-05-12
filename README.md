@@ -2,7 +2,6 @@
 ### With Partial-Product Isolation and Wallace-Tree Compression
 
 
-https://github.com/Jayanathkarney/approximate-multiplier-8x8/blob/main/DVLSI_Course_Project_Report_IISc.pdf
 
 <br>
 
@@ -15,6 +14,8 @@ https://github.com/Jayanathkarney/approximate-multiplier-8x8/blob/main/DVLSI_Cou
 > **Authors:** Karney Jayanath (SR No. 26831) 
 >
 > **Course Instructor:** Prof. Viveka K R
+>
+> > **Project Report:** [📄 View Full Report (PDF)](https://github.com/Jayanathkarney/approximate-multiplier-8x8/blob/main/DVLSI_COURSE_PROJECT_IISc.pdf)
 
 <br>
 
