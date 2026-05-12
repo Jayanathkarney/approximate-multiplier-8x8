@@ -1,0 +1,64 @@
+========================================
+Approximate Multiplier Test Results
+MODE = 00000000000000000000000000000001 (1)
+========================================
+
+  Test #0 PASS: A=0, B=0, Result=0
+  Test #1 PASS: A=0, B=255, Result=0
+  Test #2 PASS: A=255, B=0, Result=0
+  Test #3 ERROR: A=255, B=255, Expected=65025, Got=64260, Error=765
+  Test #4 ERROR: A=1, B=1, Expected=1, Got=0, Error=1
+  Test #5 PASS: A=128, B=128, Result=16384
+  Test #6 ERROR: A=17, B=89, Expected=1513, Got=1496, Error=17
+  Test #7 PASS: A=234, B=12, Result=2808
+  Test #8 ERROR: A=56, B=145, Expected=8120, Got=8064, Error=56
+  Test #9 ERROR: A=199, B=73, Expected=14527, Got=14328, Error=199
+  Test #10 ERROR: A=42, B=211, Expected=8862, Got=8736, Error=126
+  Test #11 ERROR: A=167, B=34, Expected=5678, Got=5344, Error=334
+  Test #12 PASS: A=91, B=188, Result=17108
+  Test #13 ERROR: A=223, B=67, Expected=14941, Got=14272, Error=669
+  Test #14 PASS: A=78, B=156, Result=12168
+  Test #15 ERROR: A=145, B=99, Expected=14355, Got=13920, Error=435
+  Test #16 ERROR: A=23, B=203, Expected=4669, Got=4600, Error=69
+  Test #17 ERROR: A=189, B=45, Expected=8505, Got=8316, Error=189
+  Test #18 ERROR: A=112, B=134, Expected=15008, Got=14784, Error=224
+  Test #19 ERROR: A=201, B=81, Expected=16281, Got=16080, Error=201
+  Test #20 PASS: A=64, B=192, Result=12288
+  Test #21 PASS: A=178, B=56, Result=9968
+  Test #22 ERROR: A=95, B=167, Expected=15865, Got=15580, Error=285
+  Test #23 ERROR: A=212, B=39, Expected=8268, Got=7632, Error=636
+  Test #24 ERROR: A=51, B=221, Expected=11271, Got=11220, Error=51
+  Test #25 ERROR: A=156, B=93, Expected=14508, Got=14352, Error=156
+  Test #26 ERROR: A=29, B=178, Expected=5162, Got=5104, Error=58
+  Test #27 ERROR: A=243, B=14, Expected=3402, Got=2916, Error=486
+  Test #28 ERROR: A=87, B=149, Expected=12963, Got=12876, Error=87
+  Test #29 ERROR: A=134, B=105, Expected=14070, Got=13936, Error=134
+  Test #30 ERROR: A=73, B=198, Expected=14454, Got=14308, Error=146
+  Test #31 ERROR: A=209, B=62, Expected=12958, Got=12540, Error=418
+  Test #32 ERROR: A=46, B=183, Expected=8418, Got=8280, Error=138
+  Test #33 ERROR: A=167, B=118, Expected=19706, Got=19372, Error=334
+  Test #34 ERROR: A=102, B=141, Expected=14382, Got=14280, Error=102
+  Test #35 ERROR: A=230, B=27, Expected=6210, Got=5520, Error=690
+  Test #36 PASS: A=59, B=176, Result=10384
+  Test #37 PASS: A=195, B=84, Result=16380
+  Test #38 ERROR: A=121, B=153, Expected=18513, Got=18392, Error=121
+  Test #39 PASS: A=248, B=36, Result=8928
+  Test #40 ERROR: A=68, B=207, Expected=14076, Got=13872, Error=204
+  Test #41 ERROR: A=184, B=91, Expected=16744, Got=16192, Error=552
+  Test #42 ERROR: A=115, B=162, Expected=18630, Got=18400, Error=230
+  Test #43 ERROR: A=237, B=49, Expected=11613, Got=11376, Error=237
+  Test #44 ERROR: A=82, B=194, Expected=15908, Got=15744, Error=164
+  Test #45 ERROR: A=159, B=127, Expected=20193, Got=19716, Error=477
+  Test #46 PASS: A=34, B=216, Result=7344
+  Test #47 ERROR: A=203, B=75, Expected=15225, Got=14616, Error=609
+  Test #48 PASS: A=96, B=168, Result=16128
+  Test #49 ERROR: A=225, B=53, Expected=11925, Got=11700, Error=225
+
+========================================
+Test Summary for MODE 1
+========================================
+Total tests: 50
+Total Errors: 36
+Average Error: 196.500000
+Max Error: 765
+Error Rate: 72.00%

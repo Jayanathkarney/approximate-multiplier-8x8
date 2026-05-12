@@ -1,0 +1,64 @@
+========================================
+Approximate Multiplier Test Results
+MODE = 00000000000000000000000000000000 (0)
+========================================
+
+  Test #0 PASS: A=0, B=0, Result=0
+  Test #1 PASS: A=0, B=255, Result=0
+  Test #2 PASS: A=255, B=0, Result=0
+  Test #3 ERROR: A=255, B=255, Expected=65025, Got=64001, Error=1024
+  Test #4 PASS: A=1, B=1, Result=1
+  Test #5 PASS: A=128, B=128, Result=16384
+  Test #6 PASS: A=17, B=89, Result=1513
+  Test #7 PASS: A=234, B=12, Result=2808
+  Test #8 PASS: A=56, B=145, Result=8120
+  Test #9 PASS: A=199, B=73, Result=14527
+  Test #10 PASS: A=42, B=211, Result=8862
+  Test #11 PASS: A=167, B=34, Result=5678
+  Test #12 PASS: A=91, B=188, Result=17108
+  Test #13 PASS: A=223, B=67, Result=14941
+  Test #14 PASS: A=78, B=156, Result=12168
+  Test #15 PASS: A=145, B=99, Result=14355
+  Test #16 PASS: A=23, B=203, Result=4669
+  Test #17 PASS: A=189, B=45, Result=8505
+  Test #18 PASS: A=112, B=134, Result=15008
+  Test #19 PASS: A=201, B=81, Result=16281
+  Test #20 PASS: A=64, B=192, Result=12288
+  Test #21 PASS: A=178, B=56, Result=9968
+  Test #22 PASS: A=95, B=167, Result=15865
+  Test #23 PASS: A=212, B=39, Result=8268
+  Test #24 PASS: A=51, B=221, Result=11271
+  Test #25 PASS: A=156, B=93, Result=14508
+  Test #26 PASS: A=29, B=178, Result=5162
+  Test #27 PASS: A=243, B=14, Result=3402
+  Test #28 PASS: A=87, B=149, Result=12963
+  Test #29 PASS: A=134, B=105, Result=14070
+  Test #30 PASS: A=73, B=198, Result=14454
+  Test #31 PASS: A=209, B=62, Result=12958
+  Test #32 PASS: A=46, B=183, Result=8418
+  Test #33 PASS: A=167, B=118, Result=19706
+  Test #34 PASS: A=102, B=141, Result=14382
+  Test #35 PASS: A=230, B=27, Result=6210
+  Test #36 PASS: A=59, B=176, Result=10384
+  Test #37 PASS: A=195, B=84, Result=16380
+  Test #38 PASS: A=121, B=153, Result=18513
+  Test #39 PASS: A=248, B=36, Result=8928
+  Test #40 PASS: A=68, B=207, Result=14076
+  Test #41 PASS: A=184, B=91, Result=16744
+  Test #42 PASS: A=115, B=162, Result=18630
+  Test #43 PASS: A=237, B=49, Result=11613
+  Test #44 PASS: A=82, B=194, Result=15908
+  Test #45 PASS: A=159, B=127, Result=20193
+  Test #46 PASS: A=34, B=216, Result=7344
+  Test #47 PASS: A=203, B=75, Result=15225
+  Test #48 PASS: A=96, B=168, Result=16128
+  Test #49 PASS: A=225, B=53, Result=11925
+
+========================================
+Test Summary for MODE 0
+========================================
+Total tests: 50
+Total Errors: 1
+Average Error: 20.480000
+Max Error: 1024
+Error Rate: 2.00%

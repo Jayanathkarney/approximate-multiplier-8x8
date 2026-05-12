@@ -1,0 +1,36 @@
+# read design
+read_verilog code.v
+hierarchy -check
+hierarchy -top APPROX_MULT8B
+#flatten
+
+# convert to generic netlist
+proc; opt; clean
+fsm; opt; clean
+memory; opt; clean
+
+# convert to gate level netlist
+techmap; opt; clean
+
+
+# map to target std lib - technology node
+dfflibmap -liberty stdcells.lib
+abc -liberty stdcells.lib
+
+
+# split larger signals
+splitnets -ports; opt; clean
+
+
+# write synthesis output
+write_verilog synth.v
+write_spice synth.sp
+
+# print synthesis reports
+stat
+stat -liberty stdcells.lib
+
+show -format svg APPROX_MULT8B
+# 9. Generate schematic (PNG)
+show -format png -prefix wallace_pipeline APPROX_MULT8B
+
