@@ -1,6 +1,9 @@
 # Mode-Configurable 3-Stage Pipelined 8×8 Approximate Multiplier
 ### With Partial-Product Isolation and Wallace-Tree Compression
 
+
+https://github.com/Jayanathkarney/approximate-multiplier-8x8/blob/main/DVLSI_Course_Project_Report_IISc.pdf
+
 <br>
 
 > **Course:** Digital VLSI Design (DVLSI) — Course Project
