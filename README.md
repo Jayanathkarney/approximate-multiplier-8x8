@@ -4,9 +4,13 @@
 <br>
 
 > **Course:** Digital VLSI Design (DVLSI) — Course Project
+> 
 > **Institution:** Indian Institute of Science (IISc), Bangalore
+>
 > **Department:** Electronic Systems Engineering — M.Tech (EPD)
-> **Authors:** Karney Jayanath (SR No. 26831) · Shreevathsa K S
+>
+> **Authors:** Karney Jayanath (SR No. 26831) 
+>
 > **Course Instructor:** Prof. Viveka K R
 
 <br>
