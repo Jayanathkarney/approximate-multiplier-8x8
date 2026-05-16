@@ -596,4 +596,4 @@ THE SOFTWARE.
 ---
 
 *Department of Electronic Systems Engineering · Indian Institute of Science (IISc) · Bangalore, India*
-*DVLSI Course Project · 2024–2025*
+*DVLSI Course Project · 2025*
